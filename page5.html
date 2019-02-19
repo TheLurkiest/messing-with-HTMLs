@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<img id = "LittleBrain" src= "pictorinos\LittleBrain.jpg" width= 200px />
+
+<img id = "BigBrain" src= "pictorinos\BigBrain.jpg" width= 200px />
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+
+
+
+<script language="javascript" type="text/javascript">
+        <!-- Hide JavaScript
+             
+
+        function Reddify()
+        {
+            document.getElementById("h3style").style.color="red";
+
+            return true;
+        }
+
+       function SuddenlyDisappear()
+        {
+            document.getElementById("h4style").style.color="white";
+
+            return true;
+        }
+         
+
+
+
+
+        function WriteThingy()
+        {
+            document.write("Blah, blah, blah")
+            return true;
+        }
+
+
+		function Smallafy()
+		{
+			document.getElementById("LittleBrain").width= "50%";
+			
+			return true;
+		}	
+
+         
+
+		function ArmorUp()
+		{
+			document.getElementById("BigBrain").src = "pictorinos\LittleBrain.jpg";
+			
+			return true;
+		
+		}
+		
+		function DressUp()
+		{
+			document.getElementById("LittleBrain").src = "pictorinos\BigBrain.jpg";
+			return true;
+		
+		}
+		
+
+
+
+</script>
+
+
+
+     
+
+
+
+
+
+<h1>What Can JavaScript Do?</h1>
+
+
+
+
+
+
+
+
+<h3 id="h3style" ondblclick="Reddify();">Make More Red</h3>
+
+<h4 id="h4style">Here are some words</h4>
+
+<h5>With the following buttons we show some javascript that works and some that does not</h5>
+
+<p>More Armor and Less Armor FINAL buttons are functional and correct</p>
+
+
+
+
+
+
+
+
+
+<p>JavaScript can change HTML attributes.  ok</p>
+
+<p>In this case JavaScript changes the src (source) attribute of an image.</p>
+
+<button onclick="WriteThingy()">Pointless Platitudes</button>
+
+<button onclick="Smallafy()">Make smaller</button>
+
+
+<button onclick="DressUp()">Less Armor</button>
+
+
+
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+
+<button type="button" onclick='document.getElementById("BigBrain").src = "pictorinos\LittleBrain.jpg"'>Armor 2</button>
+
+
+
+
+
+<button onclick="ArmorUp()">More Armor</button>
+
+<button onclick="SuddenlyDisappear()">Make Words Suddenly disappear</button>	
+
+
+
+
+
+<button onclick="document.getElementById('myImage').src='BigBrain.jpg'">Less Armor FINAL</button>
+
+<img id="myImage" src="pictorinos\LittleBrain.jpg" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='LittleBrain.jpg'">More Armor FINAL</button>
+	
+
+
+
+</body>
+</html>
+
+
+
+
